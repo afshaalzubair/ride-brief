@@ -1,0 +1,1581 @@
+{
+  "meta": {
+    "title": "Ride Brief",
+    "year": 2023,
+    "release": "Final",
+    "sourceName": "NHTSA Fatality Analysis Reporting System",
+    "sourceUrl": "https://static.nhtsa.gov/nhtsa/downloads/FARS/2023/National/FARS2023NationalCSV.zip",
+    "manual": "Fatality Analysis Reporting System Analytical User's Manual, 1975-2024 (DOT HS 813 794, April 2026)",
+    "manualUrl": "https://crashstats.nhtsa.dot.gov/Api/Public/Publication/813794",
+    "generatedAt": "2026-11-06T23:26:59.925980+00:00",
+    "geography": "50 states and the District of Columbia. Puerto Rico is not in the national file."
+  },
+  "overview": {
+    "motorcycleCrashes": 6275,
+    "motorcyclistDeaths": 6367,
+    "otherDeaths": 123,
+    "helmetUsed": 4018,
+    "helmetNotUsed": 2124,
+    "helmetUnknown": 225,
+    "knownHelmetNonuse": 0.3458156952132856,
+    "drinkingInvolved": 888,
+    "drinkingNotInvolved": 2479,
+    "drinkingUnknown": 3000,
+    "daytime": 3132,
+    "nighttime": 3202,
+    "timeUnknown": 33,
+    "weekday": 3392,
+    "weekend": 2969,
+    "weekUnknown": 6,
+    "singleVehicle": 2284,
+    "multiVehicle": 4083,
+    "operatorDeaths": 6057,
+    "passengerDeaths": 310,
+    "helmetMisuseIndicated": 42,
+    "top10Share": 0.5388723103502434
+  },
+  "helmet": [
+    {
+      "group": "Unknown",
+      "deaths": 225,
+      "share": 0.035338463954766766
+    },
+    {
+      "group": "Used",
+      "deaths": 4018,
+      "share": 0.6310664363122349
+    },
+    {
+      "group": "Not used",
+      "deaths": 2124,
+      "share": 0.3335950997329983
+    }
+  ],
+  "helmetCodes": [
+    {
+      "code": 17,
+      "label": "No helmet",
+      "group": "Not used",
+      "deaths": 2124
+    },
+    {
+      "code": 5,
+      "label": "DOT-compliant motorcycle helmet",
+      "group": "Used",
+      "deaths": 2062
+    },
+    {
+      "code": 19,
+      "label": "Helmet, unknown if DOT-compliant",
+      "group": "Used",
+      "deaths": 1777
+    },
+    {
+      "code": 16,
+      "label": "Helmet, other than DOT-compliant",
+      "group": "Used",
+      "deaths": 179
+    },
+    {
+      "code": 99,
+      "label": "Unknown if helmet worn",
+      "group": "Unknown",
+      "deaths": 139
+    },
+    {
+      "code": 98,
+      "label": "Not reported",
+      "group": "Unknown",
+      "deaths": 80
+    },
+    {
+      "code": 20,
+      "label": "Not applicable",
+      "group": "Unknown",
+      "deaths": 6
+    }
+  ],
+  "bodyTypes": [
+    {
+      "code": 80,
+      "label": "Two-wheel motorcycle (excluding motor scooters)",
+      "deaths": 5723,
+      "share": 0.8988534631694676
+    },
+    {
+      "code": 84,
+      "label": "Motor scooter",
+      "deaths": 262,
+      "share": 0.04114967802732841
+    },
+    {
+      "code": 83,
+      "label": "Off-road motorcycle",
+      "deaths": 142,
+      "share": 0.022302497251452804
+    },
+    {
+      "code": 82,
+      "label": "Three-wheel motorcycle (2 rear wheels)",
+      "deaths": 74,
+      "share": 0.011622428145123292
+    },
+    {
+      "code": 85,
+      "label": "Unenclosed three-wheel motorcycle or autocycle (1 rear wheel)",
+      "deaths": 65,
+      "share": 0.010208889586932621
+    },
+    {
+      "code": 89,
+      "label": "Unknown motored cycle type",
+      "deaths": 42,
+      "share": 0.006596513271556463
+    },
+    {
+      "code": 81,
+      "label": "Moped",
+      "deaths": 41,
+      "share": 0.0064394534317575
+    },
+    {
+      "code": 88,
+      "label": "Other motored cycle (mini-bike, pocket motorcycle)",
+      "deaths": 16,
+      "share": 0.0025129574367834147
+    },
+    {
+      "code": 87,
+      "label": "Unknown three-wheel motorcycle type",
+      "deaths": 2,
+      "share": 0.00031411967959792684
+    }
+  ],
+  "alcohol": [
+    {
+      "group": "Unknown",
+      "deaths": 3000,
+      "share": 0.47117951939689023
+    },
+    {
+      "group": "Involved",
+      "deaths": 888,
+      "share": 0.1394691377414795
+    },
+    {
+      "group": "Not involved",
+      "deaths": 2479,
+      "share": 0.38935134286163026
+    }
+  ],
+  "bac": {
+    "deaths": 6367,
+    "numericResults": 4035,
+    "atOrAbove008": 1121,
+    "below008": 2914,
+    "testNotGiven": 1167,
+    "positiveValueMissing": 30,
+    "testedResultUnknown": 88,
+    "noNumericResult": 2332
+  },
+  "hours": [
+    {
+      "hour": 0,
+      "deaths": 179
+    },
+    {
+      "hour": 1,
+      "deaths": 169
+    },
+    {
+      "hour": 2,
+      "deaths": 144
+    },
+    {
+      "hour": 3,
+      "deaths": 90
+    },
+    {
+      "hour": 4,
+      "deaths": 63
+    },
+    {
+      "hour": 5,
+      "deaths": 103
+    },
+    {
+      "hour": 6,
+      "deaths": 120
+    },
+    {
+      "hour": 7,
+      "deaths": 128
+    },
+    {
+      "hour": 8,
+      "deaths": 99
+    },
+    {
+      "hour": 9,
+      "deaths": 118
+    },
+    {
+      "hour": 10,
+      "deaths": 149
+    },
+    {
+      "hour": 11,
+      "deaths": 233
+    },
+    {
+      "hour": 12,
+      "deaths": 260
+    },
+    {
+      "hour": 13,
+      "deaths": 309
+    },
+    {
+      "hour": 14,
+      "deaths": 381
+    },
+    {
+      "hour": 15,
+      "deaths": 416
+    },
+    {
+      "hour": 16,
+      "deaths": 443
+    },
+    {
+      "hour": 17,
+      "deaths": 476
+    },
+    {
+      "hour": 18,
+      "deaths": 505
+    },
+    {
+      "hour": 19,
+      "deaths": 481
+    },
+    {
+      "hour": 20,
+      "deaths": 465
+    },
+    {
+      "hour": 21,
+      "deaths": 390
+    },
+    {
+      "hour": 22,
+      "deaths": 356
+    },
+    {
+      "hour": 23,
+      "deaths": 257
+    }
+  ],
+  "dayOfWeek": [
+    {
+      "code": 1,
+      "label": "Sunday",
+      "deaths": 1111
+    },
+    {
+      "code": 2,
+      "label": "Monday",
+      "deaths": 702
+    },
+    {
+      "code": 3,
+      "label": "Tuesday",
+      "deaths": 700
+    },
+    {
+      "code": 4,
+      "label": "Wednesday",
+      "deaths": 733
+    },
+    {
+      "code": 5,
+      "label": "Thursday",
+      "deaths": 834
+    },
+    {
+      "code": 6,
+      "label": "Friday",
+      "deaths": 936
+    },
+    {
+      "code": 7,
+      "label": "Saturday",
+      "deaths": 1351
+    }
+  ],
+  "dayPart": [
+    {
+      "group": "Daytime",
+      "deaths": 3132,
+      "share": 0.4919114182503534
+    },
+    {
+      "group": "Unknown",
+      "deaths": 33,
+      "share": 0.005182974713365793
+    },
+    {
+      "group": "Nighttime",
+      "deaths": 3202,
+      "share": 0.5029056070362808
+    }
+  ],
+  "weekPart": [
+    {
+      "group": "Weekday",
+      "deaths": 3392,
+      "share": 0.5327469765980839
+    },
+    {
+      "group": "Weekend",
+      "deaths": 2969,
+      "share": 0.46631066436312235
+    },
+    {
+      "group": "Unknown",
+      "deaths": 6,
+      "share": 0.0009423590387937804
+    }
+  ],
+  "months": [
+    {
+      "month": 1,
+      "label": "January",
+      "deaths": 207
+    },
+    {
+      "month": 2,
+      "label": "February",
+      "deaths": 300
+    },
+    {
+      "month": 3,
+      "label": "March",
+      "deaths": 351
+    },
+    {
+      "month": 4,
+      "label": "April",
+      "deaths": 546
+    },
+    {
+      "month": 5,
+      "label": "May",
+      "deaths": 712
+    },
+    {
+      "month": 6,
+      "label": "June",
+      "deaths": 720
+    },
+    {
+      "month": 7,
+      "label": "July",
+      "deaths": 781
+    },
+    {
+      "month": 8,
+      "label": "August",
+      "deaths": 779
+    },
+    {
+      "month": 9,
+      "label": "September",
+      "deaths": 739
+    },
+    {
+      "month": 10,
+      "label": "October",
+      "deaths": 579
+    },
+    {
+      "month": 11,
+      "label": "November",
+      "deaths": 371
+    },
+    {
+      "month": 12,
+      "label": "December",
+      "deaths": 282
+    }
+  ],
+  "age": [
+    {
+      "band": "Under 16",
+      "sort": 1,
+      "deaths": 33,
+      "share": 0.005182974713365793
+    },
+    {
+      "band": "16-20",
+      "sort": 2,
+      "deaths": 490,
+      "share": 0.07695932150149207
+    },
+    {
+      "band": "21-24",
+      "sort": 3,
+      "deaths": 613,
+      "share": 0.09627768179676456
+    },
+    {
+      "band": "25-29",
+      "sort": 4,
+      "deaths": 767,
+      "share": 0.12046489712580494
+    },
+    {
+      "band": "30-39",
+      "sort": 5,
+      "deaths": 1274,
+      "share": 0.20009423590387937
+    },
+    {
+      "band": "40-49",
+      "sort": 6,
+      "deaths": 1065,
+      "share": 0.16726872938589601
+    },
+    {
+      "band": "50-59",
+      "sort": 7,
+      "deaths": 1025,
+      "share": 0.16098633579393748
+    },
+    {
+      "band": "60 or older",
+      "sort": 8,
+      "deaths": 1097,
+      "share": 0.17229464425946286
+    },
+    {
+      "band": "Unknown",
+      "sort": 9,
+      "deaths": 3,
+      "share": 0.0004711795193968902
+    }
+  ],
+  "sex": [
+    {
+      "label": "Male",
+      "deaths": 5854,
+      "share": 0.9194283021831318
+    },
+    {
+      "label": "Female",
+      "deaths": 510,
+      "share": 0.08010051829747133
+    },
+    {
+      "label": "Not reported",
+      "deaths": 3,
+      "share": 0.0004711795193968902
+    }
+  ],
+  "roles": [
+    {
+      "label": "Passenger",
+      "deaths": 310,
+      "share": 0.04868855033767865
+    },
+    {
+      "label": "Operator",
+      "deaths": 6057,
+      "share": 0.9513114496623214
+    }
+  ],
+  "vehicles": [
+    {
+      "group": "Single-vehicle",
+      "deaths": 2284,
+      "share": 0.3587246741008324
+    },
+    {
+      "group": "Multi-vehicle",
+      "deaths": 4083,
+      "share": 0.6412753258991676
+    }
+  ],
+  "otherDeaths": [
+    {
+      "who": "Occupant of another vehicle",
+      "deaths": 67,
+      "share": 0.5447154471544715
+    },
+    {
+      "who": "Pedestrian",
+      "deaths": 41,
+      "share": 0.3333333333333333
+    },
+    {
+      "who": "Bicyclist or other cyclist",
+      "deaths": 12,
+      "share": 0.0975609756097561
+    },
+    {
+      "who": "Other person",
+      "deaths": 3,
+      "share": 0.024390243902439025
+    }
+  ],
+  "states": [
+    {
+      "stateCode": 12,
+      "name": "Florida",
+      "postal": "FL",
+      "deaths": 664,
+      "share": 0.1042877336265117,
+      "deathRank": 1,
+      "cumulativeShare": 0.1042877336265117,
+      "helmetUsed": 389,
+      "helmetNotUsed": 270,
+      "helmetUnknown": 5,
+      "helmetKnown": 659,
+      "nonuseAmongKnown": 0.40971168437025796,
+      "nighttime": 383,
+      "nighttimeShare": 0.5768072289156626,
+      "alcoholInvolved": 64,
+      "alcoholUnknown": 265
+    },
+    {
+      "stateCode": 6,
+      "name": "California",
+      "postal": "CA",
+      "deaths": 598,
+      "share": 0.09392178419978012,
+      "deathRank": 2,
+      "cumulativeShare": 0.19820951782629181,
+      "helmetUsed": 544,
+      "helmetNotUsed": 28,
+      "helmetUnknown": 26,
+      "helmetKnown": 572,
+      "nonuseAmongKnown": 0.04895104895104895,
+      "nighttime": 269,
+      "nighttimeShare": 0.4498327759197324,
+      "alcoholInvolved": 93,
+      "alcoholUnknown": 349
+    },
+    {
+      "stateCode": 48,
+      "name": "Texas",
+      "postal": "TX",
+      "deaths": 598,
+      "share": 0.09392178419978012,
+      "deathRank": 3,
+      "cumulativeShare": 0.29213130202607196,
+      "helmetUsed": 345,
+      "helmetNotUsed": 235,
+      "helmetUnknown": 18,
+      "helmetKnown": 580,
+      "nonuseAmongKnown": 0.4051724137931034,
+      "nighttime": 322,
+      "nighttimeShare": 0.5384615384615384,
+      "alcoholInvolved": 84,
+      "alcoholUnknown": 425
+    },
+    {
+      "stateCode": 4,
+      "name": "Arizona",
+      "postal": "AZ",
+      "deaths": 264,
+      "share": 0.04146379770692634,
+      "deathRank": 4,
+      "cumulativeShare": 0.3335950997329983,
+      "helmetUsed": 148,
+      "helmetNotUsed": 103,
+      "helmetUnknown": 13,
+      "helmetKnown": 251,
+      "nonuseAmongKnown": 0.4103585657370518,
+      "nighttime": 105,
+      "nighttimeShare": 0.3977272727272727,
+      "alcoholInvolved": 28,
+      "alcoholUnknown": 228
+    },
+    {
+      "stateCode": 39,
+      "name": "Ohio",
+      "postal": "OH",
+      "deaths": 240,
+      "share": 0.03769436155175122,
+      "deathRank": 5,
+      "cumulativeShare": 0.3712894612847495,
+      "helmetUsed": 80,
+      "helmetNotUsed": 147,
+      "helmetUnknown": 13,
+      "helmetKnown": 227,
+      "nonuseAmongKnown": 0.6475770925110133,
+      "nighttime": 133,
+      "nighttimeShare": 0.5541666666666667,
+      "alcoholInvolved": 33,
+      "alcoholUnknown": 207
+    },
+    {
+      "stateCode": 42,
+      "name": "Pennsylvania",
+      "postal": "PA",
+      "deaths": 240,
+      "share": 0.03769436155175122,
+      "deathRank": 6,
+      "cumulativeShare": 0.4089838228365007,
+      "helmetUsed": 108,
+      "helmetNotUsed": 125,
+      "helmetUnknown": 7,
+      "helmetKnown": 233,
+      "nonuseAmongKnown": 0.5364806866952789,
+      "nighttime": 125,
+      "nighttimeShare": 0.5208333333333334,
+      "alcoholInvolved": 41,
+      "alcoholUnknown": 95
+    },
+    {
+      "stateCode": 37,
+      "name": "North Carolina",
+      "postal": "NC",
+      "deaths": 227,
+      "share": 0.035652583634364694,
+      "deathRank": 7,
+      "cumulativeShare": 0.4446364064708654,
+      "helmetUsed": 208,
+      "helmetNotUsed": 16,
+      "helmetUnknown": 3,
+      "helmetKnown": 224,
+      "nonuseAmongKnown": 0.07142857142857142,
+      "nighttime": 102,
+      "nighttimeShare": 0.44933920704845814,
+      "alcoholInvolved": 18,
+      "alcoholUnknown": 89
+    },
+    {
+      "stateCode": 47,
+      "name": "Tennessee",
+      "postal": "TN",
+      "deaths": 203,
+      "share": 0.03188314747918957,
+      "deathRank": 8,
+      "cumulativeShare": 0.47651955395005496,
+      "helmetUsed": 182,
+      "helmetNotUsed": 11,
+      "helmetUnknown": 10,
+      "helmetKnown": 193,
+      "nonuseAmongKnown": 0.05699481865284974,
+      "nighttime": 101,
+      "nighttimeShare": 0.4975369458128079,
+      "alcoholInvolved": 51,
+      "alcoholUnknown": 16
+    },
+    {
+      "stateCode": 36,
+      "name": "New York",
+      "postal": "NY",
+      "deaths": 201,
+      "share": 0.03156902779959164,
+      "deathRank": 9,
+      "cumulativeShare": 0.5080885817496467,
+      "helmetUsed": 160,
+      "helmetNotUsed": 36,
+      "helmetUnknown": 5,
+      "helmetKnown": 196,
+      "nonuseAmongKnown": 0.1836734693877551,
+      "nighttime": 109,
+      "nighttimeShare": 0.5422885572139303,
+      "alcoholInvolved": 21,
+      "alcoholUnknown": 94
+    },
+    {
+      "stateCode": 13,
+      "name": "Georgia",
+      "postal": "GA",
+      "deaths": 196,
+      "share": 0.03078372860059683,
+      "deathRank": 10,
+      "cumulativeShare": 0.5388723103502434,
+      "helmetUsed": 178,
+      "helmetNotUsed": 16,
+      "helmetUnknown": 2,
+      "helmetKnown": 194,
+      "nonuseAmongKnown": 0.08247422680412371,
+      "nighttime": 106,
+      "nighttimeShare": 0.5408163265306123,
+      "alcoholInvolved": 14,
+      "alcoholUnknown": 73
+    },
+    {
+      "stateCode": 26,
+      "name": "Michigan",
+      "postal": "MI",
+      "deaths": 180,
+      "share": 0.028270771163813414,
+      "deathRank": 11,
+      "cumulativeShare": 0.5671430815140569,
+      "helmetUsed": 82,
+      "helmetNotUsed": 79,
+      "helmetUnknown": 19,
+      "helmetKnown": 161,
+      "nonuseAmongKnown": 0.4906832298136646,
+      "nighttime": 102,
+      "nighttimeShare": 0.5666666666666667,
+      "alcoholInvolved": 34,
+      "alcoholUnknown": 6
+    },
+    {
+      "stateCode": 29,
+      "name": "Missouri",
+      "postal": "MO",
+      "deaths": 176,
+      "share": 0.027642531804617558,
+      "deathRank": 12,
+      "cumulativeShare": 0.5947856133186744,
+      "helmetUsed": 91,
+      "helmetNotUsed": 77,
+      "helmetUnknown": 8,
+      "helmetKnown": 168,
+      "nonuseAmongKnown": 0.4583333333333333,
+      "nighttime": 81,
+      "nighttimeShare": 0.4602272727272727,
+      "alcoholInvolved": 22,
+      "alcoholUnknown": 102
+    },
+    {
+      "stateCode": 17,
+      "name": "Illinois",
+      "postal": "IL",
+      "deaths": 172,
+      "share": 0.027014292445421705,
+      "deathRank": 13,
+      "cumulativeShare": 0.6217999057640962,
+      "helmetUsed": 67,
+      "helmetNotUsed": 97,
+      "helmetUnknown": 8,
+      "helmetKnown": 164,
+      "nonuseAmongKnown": 0.5914634146341463,
+      "nighttime": 87,
+      "nighttimeShare": 0.5058139534883721,
+      "alcoholInvolved": 10,
+      "alcoholUnknown": 128
+    },
+    {
+      "stateCode": 45,
+      "name": "South Carolina",
+      "postal": "SC",
+      "deaths": 151,
+      "share": 0.023716035809643474,
+      "deathRank": 14,
+      "cumulativeShare": 0.6455159415737396,
+      "helmetUsed": 61,
+      "helmetNotUsed": 86,
+      "helmetUnknown": 4,
+      "helmetKnown": 147,
+      "nonuseAmongKnown": 0.5850340136054422,
+      "nighttime": 92,
+      "nighttimeShare": 0.609271523178808,
+      "alcoholInvolved": 42,
+      "alcoholUnknown": 35
+    },
+    {
+      "stateCode": 18,
+      "name": "Indiana",
+      "postal": "IN",
+      "deaths": 145,
+      "share": 0.022773676770849693,
+      "deathRank": 15,
+      "cumulativeShare": 0.6682896183445893,
+      "helmetUsed": 42,
+      "helmetNotUsed": 100,
+      "helmetUnknown": 3,
+      "helmetKnown": 142,
+      "nonuseAmongKnown": 0.704225352112676,
+      "nighttime": 81,
+      "nighttimeShare": 0.5586206896551724,
+      "alcoholInvolved": 19,
+      "alcoholUnknown": 76
+    },
+    {
+      "stateCode": 53,
+      "name": "Washington",
+      "postal": "WA",
+      "deaths": 142,
+      "share": 0.022302497251452804,
+      "deathRank": 16,
+      "cumulativeShare": 0.690592115596042,
+      "helmetUsed": 132,
+      "helmetNotUsed": 5,
+      "helmetUnknown": 5,
+      "helmetKnown": 137,
+      "nonuseAmongKnown": 0.0364963503649635,
+      "nighttime": 64,
+      "nighttimeShare": 0.4507042253521127,
+      "alcoholInvolved": 17,
+      "alcoholUnknown": 111
+    },
+    {
+      "stateCode": 8,
+      "name": "Colorado",
+      "postal": "CO",
+      "deaths": 135,
+      "share": 0.02120307837286006,
+      "deathRank": 17,
+      "cumulativeShare": 0.7117951939689021,
+      "helmetUsed": 62,
+      "helmetNotUsed": 72,
+      "helmetUnknown": 1,
+      "helmetKnown": 134,
+      "nonuseAmongKnown": 0.5373134328358209,
+      "nighttime": 56,
+      "nighttimeShare": 0.4148148148148148,
+      "alcoholInvolved": 21,
+      "alcoholUnknown": 7
+    },
+    {
+      "stateCode": 51,
+      "name": "Virginia",
+      "postal": "VA",
+      "deaths": 132,
+      "share": 0.02073189885346317,
+      "deathRank": 18,
+      "cumulativeShare": 0.7325270928223653,
+      "helmetUsed": 129,
+      "helmetNotUsed": 3,
+      "helmetUnknown": 0,
+      "helmetKnown": 132,
+      "nonuseAmongKnown": 0.022727272727272728,
+      "nighttime": 60,
+      "nighttimeShare": 0.45454545454545453,
+      "alcoholInvolved": 10,
+      "alcoholUnknown": 81
+    },
+    {
+      "stateCode": 21,
+      "name": "Kentucky",
+      "postal": "KY",
+      "deaths": 106,
+      "share": 0.016648343018690122,
+      "deathRank": 19,
+      "cumulativeShare": 0.7491754358410554,
+      "helmetUsed": 46,
+      "helmetNotUsed": 59,
+      "helmetUnknown": 1,
+      "helmetKnown": 105,
+      "nonuseAmongKnown": 0.5619047619047619,
+      "nighttime": 54,
+      "nighttimeShare": 0.5094339622641509,
+      "alcoholInvolved": 11,
+      "alcoholUnknown": 7
+    },
+    {
+      "stateCode": 55,
+      "name": "Wisconsin",
+      "postal": "WI",
+      "deaths": 104,
+      "share": 0.016334223339092194,
+      "deathRank": 20,
+      "cumulativeShare": 0.7655096591801477,
+      "helmetUsed": 31,
+      "helmetNotUsed": 68,
+      "helmetUnknown": 5,
+      "helmetKnown": 99,
+      "nonuseAmongKnown": 0.6868686868686869,
+      "nighttime": 49,
+      "nighttimeShare": 0.47115384615384615,
+      "alcoholInvolved": 22,
+      "alcoholUnknown": 2
+    },
+    {
+      "stateCode": 40,
+      "name": "Oklahoma",
+      "postal": "OK",
+      "deaths": 102,
+      "share": 0.01602010365949427,
+      "deathRank": 21,
+      "cumulativeShare": 0.7815297628396419,
+      "helmetUsed": 41,
+      "helmetNotUsed": 56,
+      "helmetUnknown": 5,
+      "helmetKnown": 97,
+      "nonuseAmongKnown": 0.5773195876288659,
+      "nighttime": 48,
+      "nighttimeShare": 0.47058823529411764,
+      "alcoholInvolved": 10,
+      "alcoholUnknown": 32
+    },
+    {
+      "stateCode": 22,
+      "name": "Louisiana",
+      "postal": "LA",
+      "deaths": 98,
+      "share": 0.015391864300298415,
+      "deathRank": 22,
+      "cumulativeShare": 0.7969216271399403,
+      "helmetUsed": 83,
+      "helmetNotUsed": 13,
+      "helmetUnknown": 2,
+      "helmetKnown": 96,
+      "nonuseAmongKnown": 0.13541666666666666,
+      "nighttime": 57,
+      "nighttimeShare": 0.5816326530612245,
+      "alcoholInvolved": 17,
+      "alcoholUnknown": 28
+    },
+    {
+      "stateCode": 1,
+      "name": "Alabama",
+      "postal": "AL",
+      "deaths": 94,
+      "share": 0.01476362494110256,
+      "deathRank": 23,
+      "cumulativeShare": 0.8116852520810429,
+      "helmetUsed": 79,
+      "helmetNotUsed": 12,
+      "helmetUnknown": 3,
+      "helmetKnown": 91,
+      "nonuseAmongKnown": 0.13186813186813187,
+      "nighttime": 47,
+      "nighttimeShare": 0.5,
+      "alcoholInvolved": 8,
+      "alcoholUnknown": 46
+    },
+    {
+      "stateCode": 5,
+      "name": "Arkansas",
+      "postal": "AR",
+      "deaths": 93,
+      "share": 0.014606565101303596,
+      "deathRank": 24,
+      "cumulativeShare": 0.8262918171823465,
+      "helmetUsed": 32,
+      "helmetNotUsed": 58,
+      "helmetUnknown": 3,
+      "helmetKnown": 90,
+      "nonuseAmongKnown": 0.6444444444444445,
+      "nighttime": 39,
+      "nighttimeShare": 0.41935483870967744,
+      "alcoholInvolved": 12,
+      "alcoholUnknown": 27
+    },
+    {
+      "stateCode": 34,
+      "name": "New Jersey",
+      "postal": "NJ",
+      "deaths": 90,
+      "share": 0.014135385581906707,
+      "deathRank": 25,
+      "cumulativeShare": 0.8404272027642532,
+      "helmetUsed": 83,
+      "helmetNotUsed": 3,
+      "helmetUnknown": 4,
+      "helmetKnown": 86,
+      "nonuseAmongKnown": 0.03488372093023256,
+      "nighttime": 44,
+      "nighttimeShare": 0.4888888888888889,
+      "alcoholInvolved": 23,
+      "alcoholUnknown": 12
+    },
+    {
+      "stateCode": 24,
+      "name": "Maryland",
+      "postal": "MD",
+      "deaths": 89,
+      "share": 0.013978325742107743,
+      "deathRank": 26,
+      "cumulativeShare": 0.854405528506361,
+      "helmetUsed": 78,
+      "helmetNotUsed": 11,
+      "helmetUnknown": 0,
+      "helmetKnown": 89,
+      "nonuseAmongKnown": 0.12359550561797752,
+      "nighttime": 48,
+      "nighttimeShare": 0.5393258426966292,
+      "alcoholInvolved": 8,
+      "alcoholUnknown": 48
+    },
+    {
+      "stateCode": 32,
+      "name": "Nevada",
+      "postal": "NV",
+      "deaths": 71,
+      "share": 0.011151248625726402,
+      "deathRank": 27,
+      "cumulativeShare": 0.8655567771320873,
+      "helmetUsed": 67,
+      "helmetNotUsed": 4,
+      "helmetUnknown": 0,
+      "helmetKnown": 71,
+      "nonuseAmongKnown": 0.056338028169014086,
+      "nighttime": 36,
+      "nighttimeShare": 0.5070422535211268,
+      "alcoholInvolved": 8,
+      "alcoholUnknown": 41
+    },
+    {
+      "stateCode": 41,
+      "name": "Oregon",
+      "postal": "OR",
+      "deaths": 70,
+      "share": 0.010994188785927438,
+      "deathRank": 28,
+      "cumulativeShare": 0.8765509659180147,
+      "helmetUsed": 62,
+      "helmetNotUsed": 3,
+      "helmetUnknown": 5,
+      "helmetKnown": 65,
+      "nonuseAmongKnown": 0.046153846153846156,
+      "nighttime": 31,
+      "nighttimeShare": 0.44285714285714284,
+      "alcoholInvolved": 5,
+      "alcoholUnknown": 65
+    },
+    {
+      "stateCode": 27,
+      "name": "Minnesota",
+      "postal": "MN",
+      "deaths": 69,
+      "share": 0.010837128946128476,
+      "deathRank": 29,
+      "cumulativeShare": 0.8873880948641433,
+      "helmetUsed": 20,
+      "helmetNotUsed": 45,
+      "helmetUnknown": 4,
+      "helmetKnown": 65,
+      "nonuseAmongKnown": 0.6923076923076923,
+      "nighttime": 31,
+      "nighttimeShare": 0.4492753623188406,
+      "alcoholInvolved": 11,
+      "alcoholUnknown": 12
+    },
+    {
+      "stateCode": 19,
+      "name": "Iowa",
+      "postal": "IA",
+      "deaths": 64,
+      "share": 0.010051829747133659,
+      "deathRank": 30,
+      "cumulativeShare": 0.8974399246112769,
+      "helmetUsed": 20,
+      "helmetNotUsed": 40,
+      "helmetUnknown": 4,
+      "helmetKnown": 60,
+      "nonuseAmongKnown": 0.6666666666666666,
+      "nighttime": 24,
+      "nighttimeShare": 0.375,
+      "alcoholInvolved": 10,
+      "alcoholUnknown": 42
+    },
+    {
+      "stateCode": 9,
+      "name": "Connecticut",
+      "postal": "CT",
+      "deaths": 60,
+      "share": 0.009423590387937804,
+      "deathRank": 31,
+      "cumulativeShare": 0.9068635149992147,
+      "helmetUsed": 29,
+      "helmetNotUsed": 24,
+      "helmetUnknown": 7,
+      "helmetKnown": 53,
+      "nonuseAmongKnown": 0.4528301886792453,
+      "nighttime": 39,
+      "nighttimeShare": 0.65,
+      "alcoholInvolved": 23,
+      "alcoholUnknown": 24
+    },
+    {
+      "stateCode": 25,
+      "name": "Massachusetts",
+      "postal": "MA",
+      "deaths": 60,
+      "share": 0.009423590387937804,
+      "deathRank": 32,
+      "cumulativeShare": 0.9162871053871525,
+      "helmetUsed": 49,
+      "helmetNotUsed": 7,
+      "helmetUnknown": 4,
+      "helmetKnown": 56,
+      "nonuseAmongKnown": 0.125,
+      "nighttime": 33,
+      "nighttimeShare": 0.55,
+      "alcoholInvolved": 14,
+      "alcoholUnknown": 29
+    },
+    {
+      "stateCode": 28,
+      "name": "Mississippi",
+      "postal": "MS",
+      "deaths": 60,
+      "share": 0.009423590387937804,
+      "deathRank": 33,
+      "cumulativeShare": 0.9257106957750904,
+      "helmetUsed": 47,
+      "helmetNotUsed": 9,
+      "helmetUnknown": 4,
+      "helmetKnown": 56,
+      "nonuseAmongKnown": 0.16071428571428573,
+      "nighttime": 27,
+      "nighttimeShare": 0.45,
+      "alcoholInvolved": 7,
+      "alcoholUnknown": 3
+    },
+    {
+      "stateCode": 35,
+      "name": "New Mexico",
+      "postal": "NM",
+      "deaths": 55,
+      "share": 0.008638291188942987,
+      "deathRank": 34,
+      "cumulativeShare": 0.9343489869640333,
+      "helmetUsed": 32,
+      "helmetNotUsed": 19,
+      "helmetUnknown": 4,
+      "helmetKnown": 51,
+      "nonuseAmongKnown": 0.37254901960784315,
+      "nighttime": 26,
+      "nighttimeShare": 0.4727272727272727,
+      "alcoholInvolved": 1,
+      "alcoholUnknown": 44
+    },
+    {
+      "stateCode": 20,
+      "name": "Kansas",
+      "postal": "KS",
+      "deaths": 42,
+      "share": 0.006596513271556463,
+      "deathRank": 35,
+      "cumulativeShare": 0.9409455002355898,
+      "helmetUsed": 19,
+      "helmetNotUsed": 22,
+      "helmetUnknown": 1,
+      "helmetKnown": 41,
+      "nonuseAmongKnown": 0.5365853658536586,
+      "nighttime": 17,
+      "nighttimeShare": 0.40476190476190477,
+      "alcoholInvolved": 9,
+      "alcoholUnknown": 13
+    },
+    {
+      "stateCode": 49,
+      "name": "Utah",
+      "postal": "UT",
+      "deaths": 42,
+      "share": 0.006596513271556463,
+      "deathRank": 36,
+      "cumulativeShare": 0.9475420135071462,
+      "helmetUsed": 23,
+      "helmetNotUsed": 19,
+      "helmetUnknown": 0,
+      "helmetKnown": 42,
+      "nonuseAmongKnown": 0.4523809523809524,
+      "nighttime": 20,
+      "nighttimeShare": 0.47619047619047616,
+      "alcoholInvolved": 3,
+      "alcoholUnknown": 19
+    },
+    {
+      "stateCode": 33,
+      "name": "New Hampshire",
+      "postal": "NH",
+      "deaths": 41,
+      "share": 0.0064394534317575,
+      "deathRank": 37,
+      "cumulativeShare": 0.9539814669389037,
+      "helmetUsed": 9,
+      "helmetNotUsed": 32,
+      "helmetUnknown": 0,
+      "helmetKnown": 41,
+      "nonuseAmongKnown": 0.7804878048780488,
+      "nighttime": 19,
+      "nighttimeShare": 0.4634146341463415,
+      "alcoholInvolved": 2,
+      "alcoholUnknown": 28
+    },
+    {
+      "stateCode": 16,
+      "name": "Idaho",
+      "postal": "ID",
+      "deaths": 39,
+      "share": 0.006125333752159573,
+      "deathRank": 38,
+      "cumulativeShare": 0.9601068006910632,
+      "helmetUsed": 24,
+      "helmetNotUsed": 14,
+      "helmetUnknown": 1,
+      "helmetKnown": 38,
+      "nonuseAmongKnown": 0.3684210526315789,
+      "nighttime": 10,
+      "nighttimeShare": 0.2564102564102564,
+      "alcoholInvolved": 7,
+      "alcoholUnknown": 3
+    },
+    {
+      "stateCode": 54,
+      "name": "West Virginia",
+      "postal": "WV",
+      "deaths": 38,
+      "share": 0.0059682739123606094,
+      "deathRank": 39,
+      "cumulativeShare": 0.9660750746034239,
+      "helmetUsed": 22,
+      "helmetNotUsed": 15,
+      "helmetUnknown": 1,
+      "helmetKnown": 37,
+      "nonuseAmongKnown": 0.40540540540540543,
+      "nighttime": 15,
+      "nighttimeShare": 0.39473684210526316,
+      "alcoholInvolved": 5,
+      "alcoholUnknown": 13
+    },
+    {
+      "stateCode": 30,
+      "name": "Montana",
+      "postal": "MT",
+      "deaths": 29,
+      "share": 0.004554735354169939,
+      "deathRank": 40,
+      "cumulativeShare": 0.9706298099575938,
+      "helmetUsed": 20,
+      "helmetNotUsed": 9,
+      "helmetUnknown": 0,
+      "helmetKnown": 29,
+      "nonuseAmongKnown": 0.3103448275862069,
+      "nighttime": 18,
+      "nighttimeShare": 0.6206896551724138,
+      "alcoholInvolved": 9,
+      "alcoholUnknown": 7
+    },
+    {
+      "stateCode": 46,
+      "name": "South Dakota",
+      "postal": "SD",
+      "deaths": 29,
+      "share": 0.004554735354169939,
+      "deathRank": 41,
+      "cumulativeShare": 0.9751845453117638,
+      "helmetUsed": 9,
+      "helmetNotUsed": 18,
+      "helmetUnknown": 2,
+      "helmetKnown": 27,
+      "nonuseAmongKnown": 0.6666666666666666,
+      "nighttime": 10,
+      "nighttimeShare": 0.3448275862068966,
+      "alcoholInvolved": 6,
+      "alcoholUnknown": 17
+    },
+    {
+      "stateCode": 15,
+      "name": "Hawaii",
+      "postal": "HI",
+      "deaths": 27,
+      "share": 0.004240615674572012,
+      "deathRank": 42,
+      "cumulativeShare": 0.9794251609863358,
+      "helmetUsed": 13,
+      "helmetNotUsed": 14,
+      "helmetUnknown": 0,
+      "helmetKnown": 27,
+      "nonuseAmongKnown": 0.5185185185185185,
+      "nighttime": 20,
+      "nighttimeShare": 0.7407407407407407,
+      "alcoholInvolved": 12,
+      "alcoholUnknown": 1
+    },
+    {
+      "stateCode": 31,
+      "name": "Nebraska",
+      "postal": "NE",
+      "deaths": 22,
+      "share": 0.0034553164755771948,
+      "deathRank": 43,
+      "cumulativeShare": 0.982880477461913,
+      "helmetUsed": 22,
+      "helmetNotUsed": 0,
+      "helmetUnknown": 0,
+      "helmetKnown": 22,
+      "nonuseAmongKnown": 0.0,
+      "nighttime": 6,
+      "nighttimeShare": 0.2727272727272727,
+      "alcoholInvolved": 2,
+      "alcoholUnknown": 14
+    },
+    {
+      "stateCode": 50,
+      "name": "Vermont",
+      "postal": "VT",
+      "deaths": 18,
+      "share": 0.002827077116381341,
+      "deathRank": 44,
+      "cumulativeShare": 0.9857075545782943,
+      "helmetUsed": 17,
+      "helmetNotUsed": 0,
+      "helmetUnknown": 1,
+      "helmetKnown": 17,
+      "nonuseAmongKnown": 0.0,
+      "nighttime": 9,
+      "nighttimeShare": 0.5,
+      "alcoholInvolved": 6,
+      "alcoholUnknown": 0
+    },
+    {
+      "stateCode": 23,
+      "name": "Maine",
+      "postal": "ME",
+      "deaths": 16,
+      "share": 0.0025129574367834147,
+      "deathRank": 45,
+      "cumulativeShare": 0.9882205120150778,
+      "helmetUsed": 7,
+      "helmetNotUsed": 9,
+      "helmetUnknown": 0,
+      "helmetKnown": 16,
+      "nonuseAmongKnown": 0.5625,
+      "nighttime": 7,
+      "nighttimeShare": 0.4375,
+      "alcoholInvolved": 3,
+      "alcoholUnknown": 5
+    },
+    {
+      "stateCode": 38,
+      "name": "North Dakota",
+      "postal": "ND",
+      "deaths": 16,
+      "share": 0.0025129574367834147,
+      "deathRank": 46,
+      "cumulativeShare": 0.9907334694518611,
+      "helmetUsed": 2,
+      "helmetNotUsed": 14,
+      "helmetUnknown": 0,
+      "helmetKnown": 16,
+      "nonuseAmongKnown": 0.875,
+      "nighttime": 6,
+      "nighttimeShare": 0.375,
+      "alcoholInvolved": 2,
+      "alcoholUnknown": 6
+    },
+    {
+      "stateCode": 44,
+      "name": "Rhode Island",
+      "postal": "RI",
+      "deaths": 16,
+      "share": 0.0025129574367834147,
+      "deathRank": 47,
+      "cumulativeShare": 0.9932464268886446,
+      "helmetUsed": 5,
+      "helmetNotUsed": 11,
+      "helmetUnknown": 0,
+      "helmetKnown": 16,
+      "nonuseAmongKnown": 0.6875,
+      "nighttime": 12,
+      "nighttimeShare": 0.75,
+      "alcoholInvolved": 1,
+      "alcoholUnknown": 13
+    },
+    {
+      "stateCode": 56,
+      "name": "Wyoming",
+      "postal": "WY",
+      "deaths": 15,
+      "share": 0.002355897596984451,
+      "deathRank": 48,
+      "cumulativeShare": 0.995602324485629,
+      "helmetUsed": 2,
+      "helmetNotUsed": 1,
+      "helmetUnknown": 12,
+      "helmetKnown": 3,
+      "nonuseAmongKnown": 0.3333333333333333,
+      "nighttime": 7,
+      "nighttimeShare": 0.4666666666666667,
+      "alcoholInvolved": 3,
+      "alcoholUnknown": 3
+    },
+    {
+      "stateCode": 10,
+      "name": "Delaware",
+      "postal": "DE",
+      "deaths": 14,
+      "share": 0.002198837757185488,
+      "deathRank": 49,
+      "cumulativeShare": 0.9978011622428146,
+      "helmetUsed": 7,
+      "helmetNotUsed": 6,
+      "helmetUnknown": 1,
+      "helmetKnown": 13,
+      "nonuseAmongKnown": 0.46153846153846156,
+      "nighttime": 7,
+      "nighttimeShare": 0.5,
+      "alcoholInvolved": 5,
+      "alcoholUnknown": 3
+    },
+    {
+      "stateCode": 2,
+      "name": "Alaska",
+      "postal": "AK",
+      "deaths": 8,
+      "share": 0.0012564787183917073,
+      "deathRank": 50,
+      "cumulativeShare": 0.9990576409612062,
+      "helmetUsed": 6,
+      "helmetNotUsed": 1,
+      "helmetUnknown": 1,
+      "helmetKnown": 7,
+      "nonuseAmongKnown": 0.14285714285714285,
+      "nighttime": 4,
+      "nighttimeShare": 0.5,
+      "alcoholInvolved": 1,
+      "alcoholUnknown": 1
+    },
+    {
+      "stateCode": 11,
+      "name": "District of Columbia",
+      "postal": "DC",
+      "deaths": 6,
+      "share": 0.0009423590387937804,
+      "deathRank": 51,
+      "cumulativeShare": 1.0,
+      "helmetUsed": 4,
+      "helmetNotUsed": 2,
+      "helmetUnknown": 0,
+      "helmetKnown": 6,
+      "nonuseAmongKnown": 0.3333333333333333,
+      "nighttime": 4,
+      "nighttimeShare": 0.6666666666666666,
+      "alcoholInvolved": 0,
+      "alcoholUnknown": 5
+    }
+  ],
+  "quality": [
+    {
+      "id": "staging_person_rows",
+      "level": "info",
+      "n": 92768,
+      "detail": "Person rows loaded from the 2023 national CSV."
+    },
+    {
+      "id": "staging_vehicle_rows",
+      "level": "info",
+      "n": 58508,
+      "detail": "Vehicle rows loaded from the 2023 national CSV."
+    },
+    {
+      "id": "staging_accident_rows",
+      "level": "info",
+      "n": 37769,
+      "detail": "Fatal crashes loaded from the accident file."
+    },
+    {
+      "id": "motorcycle_crashes",
+      "level": "info",
+      "n": 6275,
+      "detail": "Fatal crashes with at least one in-transport vehicle of body type 80-89."
+    },
+    {
+      "id": "motorcyclist_deaths",
+      "level": "info",
+      "n": 6367,
+      "detail": "Operators and passengers killed on body types 80-89."
+    },
+    {
+      "id": "duplicate_death_keys",
+      "level": "pass",
+      "n": 0,
+      "detail": "Death records that share a case, vehicle, and person number. Must be zero."
+    },
+    {
+      "id": "null_death_keys",
+      "level": "pass",
+      "n": 0,
+      "detail": "Death records missing the join key or crash state. Must be zero."
+    },
+    {
+      "id": "unmapped_state",
+      "level": "pass",
+      "n": 0,
+      "detail": "Death records whose state code is not in the 50 states or the District of Columbia."
+    },
+    {
+      "id": "body_type_mismatch",
+      "level": "info",
+      "n": 0,
+      "detail": "Death records whose person-file body type disagrees with the vehicle file."
+    },
+    {
+      "id": "excluded_died_prior",
+      "level": "info",
+      "n": 0,
+      "detail": "Riders coded as died prior to the crash (injury severity 6), excluded from the death count."
+    },
+    {
+      "id": "excluded_unknown_occupant",
+      "level": "info",
+      "n": 0,
+      "detail": "Fatally injured motorcycle occupants of unknown person type, excluded from the rider count."
+    },
+    {
+      "id": "helmet_group_sum",
+      "level": "pass",
+      "n": 6367,
+      "detail": "Deaths with a helmet group. Must equal the death count."
+    },
+    {
+      "id": "drinking_group_sum",
+      "level": "pass",
+      "n": 6367,
+      "detail": "Deaths with a police-reported alcohol group. Must equal the death count."
+    }
+  ],
+  "definitions": [
+    {
+      "topic": "Question",
+      "rule": "Among people killed on motorcycles in U.S. traffic crashes in 2023, how were helmet use, police-reported alcohol involvement, time of day, and state distributed?"
+    },
+    {
+      "topic": "Source",
+      "rule": "NHTSA Fatality Analysis Reporting System, 2023 Final National CSV. The 2024 national file is an Annual Report File and can still be revised, so this briefing stays on the final year."
+    },
+    {
+      "topic": "Geography",
+      "rule": "The national file covers the 50 states and the District of Columbia. Puerto Rico is published separately and is not included."
+    },
+    {
+      "topic": "Fatal crash",
+      "rule": "A crash in the accident file in which at least one in-transport vehicle has body type 80 through 89."
+    },
+    {
+      "topic": "Motorcyclist killed",
+      "rule": "A person in the person file with injury severity 4 (fatal), person type 1 (operator) or 2 (passenger), and body type 80 through 89. Injury severity 6 (died prior to the crash) is excluded. Unknown occupant type is excluded and counted in the quality checks."
+    },
+    {
+      "topic": "Other people killed",
+      "rule": "People with injury severity 4 in a motorcycle-involved fatal crash who are not in the motorcyclist-killed set. They include occupants of other vehicles, pedestrians, and bicyclists."
+    },
+    {
+      "topic": "Helmet",
+      "rule": "Used means HELM_USE 5, 16, or 19. Not used means 17. Every other code, including not reported and unknown, stays in Unknown. Unknown is never folded into not used."
+    },
+    {
+      "topic": "Police-reported alcohol",
+      "rule": "DRINKING is the officer's judgment. 1 is involved, 0 is not involved, 8 and 9 stay unknown. The manual says this element does not mean alcohol caused the crash. It is not NHTSA's alcohol-impaired-driving statistic, which uses measured and imputed blood alcohol concentration."
+    },
+    {
+      "topic": "Numeric BAC",
+      "rule": "ALC_RES values 0 through 940 are numeric results, in units of 0.001 g/dL, so 80 means 0.08 g/dL. Value 940 means 0.94 g/dL or greater and is counted as at or above 0.08. Values 995 through 999 are not numeric. This briefing does not impute missing tests."
+    },
+    {
+      "topic": "Time of day",
+      "rule": "NCSA classification: daytime is hour 6 through 17 (6:00 a.m. through 5:59 p.m.). Nighttime is hours 0 through 5 and 18 through 23. Hour 99 or a missing hour is unknown."
+    },
+    {
+      "topic": "Week part",
+      "rule": "NCSA classification: weekend runs from 6:00 p.m. Friday through 5:59 a.m. Monday. Hours that fall in neither the weekday nor the weekend rule are unknown."
+    },
+    {
+      "topic": "What this cannot say",
+      "rule": "FARS is a census of fatal crashes, not of all crashes and not of miles ridden. A state with more deaths is not shown to be more dangerous per mile. Helmet and alcohol figures describe people who died, not the effect of a helmet or of alcohol."
+    }
+  ]
+}
